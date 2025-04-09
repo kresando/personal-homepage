@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perbandingan Framework JavaScript Modern - Kresando Portfolio</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand"><a href="../index.html">Portfolio</a></div>
+        <div class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="../index.html#home">Home</a></li>
+            <li><a href="../index.html#work">Project Gallery</a></li>
+            <li><a href="../index.html#blog" class="active">Blog</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="blog-header">
+        <div class="container">
+            <a href="../index.html#blog" class="back-button"><i class="fas fa-arrow-left"></i> Kembali ke Blog</a>
+            <h1>Perbandingan Framework JavaScript Modern</h1>
+            <div class="blog-meta">
+                <span><i class="far fa-calendar"></i> 5 April 2025</span>
+                <span><i class="far fa-user"></i> Kresando Seon</span>
+                <span><i class="far fa-folder"></i> Teknologi, Web Development</span>
+            </div>
+        </div>
+    </div>
+
+    <main class="blog-content">
+        <div class="container">
+            <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Web Development" class="featured-image">
+            
+            <article>
+                <h2>Pengenalan</h2>
+                <p>Dunia pengembangan web terus berkembang, dan framework JavaScript telah menjadi komponen penting dalam membangun aplikasi web modern. Dengan begitu banyak pilihan yang tersedia, memilih framework yang tepat dapat menjadi tugas yang menantang. Dalam artikel ini, kita akan membandingkan tiga framework JavaScript paling populer: React, Vue, dan Angular, untuk membantu Anda membuat keputusan yang tepat untuk proyek berikutnya.</p>
+
+                <h2>Sekilas tentang Framework JavaScript Modern</h2>
+                <p>Sebelum kita mendalami perbandingan, mari kita pahami secara singkat apa itu framework JavaScript dan mengapa kita membutuhkannya:</p>
+
+                <p>Framework JavaScript adalah koleksi kode yang menyediakan struktur dan fungsi yang telah ditentukan sebelumnya untuk membantu dalam pengembangan aplikasi web. Mereka menyederhanakan proses pengembangan dengan menyediakan alat untuk mengelola DOM, menangani perutean, mengelola state, dan banyak lagi. Tanpa framework, pengembang harus menulis semua fungsionalitas ini dari awal, yang membutuhkan waktu lebih lama dan lebih rentan terhadap kesalahan.</p>
+
+                <h2>React: Fleksibilitas dan Ekosistem Luas</h2>
+                <h3>Kelebihan React</h3>
+                <p>React, yang dikembangkan dan dikelola oleh Facebook, adalah library JavaScript untuk membangun antarmuka pengguna. Meskipun secara teknis bukan framework lengkap, React sering disebut sebagai framework karena ekosistemnya yang luas. Beberapa kelebihan React antara lain:</p>
+                
+                <ul>
+                    <li><strong>Virtual DOM:</strong> React menggunakan Virtual DOM untuk mengoptimalkan manipulasi DOM, yang menghasilkan aplikasi yang lebih cepat dan lebih responsif.</li>
+                    <li><strong>Komponen yang Dapat Digunakan Kembali:</strong> React didasarkan pada konsep komponen, yang memungkinkan pengembang untuk membuat UI modular dan dapat digunakan kembali.</li>
+                    <li><strong>Ekosistem Luas:</strong> React memiliki komunitas besar dan banyak library pihak ketiga, yang memudahkan menemukan solusi untuk hampir semua tantangan pengembangan.</li>
+                    <li><strong>React Native:</strong> Pengetahuan React dapat ditransfer ke pengembangan aplikasi mobile dengan React Native, memungkinkan pengembang untuk membangun aplikasi multi-platform.</li>
+                </ul>
+
+                <h3>Tantangan dengan React</h3>
+                <p>Meskipun popularitasnya, React memiliki beberapa tantangan:</p>
+                
+                <ul>
+                    <li><strong>Kurva Pembelajaran JSX:</strong> JSX, sintaks yang menggabungkan HTML dengan JavaScript, mungkin memerlukan waktu untuk dibiasakan bagi pemula.</li>
+                    <li><strong>Bukan Framework Lengkap:</strong> React fokus pada tampilan, yang berarti pengembang perlu memilih library tambahan untuk fungsionalitas seperti routing dan manajemen state.</li>
+                    <li><strong>Perubahan Cepat:</strong> Ekosistem React terus berkembang, yang berarti pengembang perlu terus belajar dan beradaptasi.</li>
+                </ul>
+
+                <h2>Vue: Kesederhanaan dan Kemudahan Penggunaan</h2>
+                <h3>Kelebihan Vue</h3>
+                <p>Vue.js, diciptakan oleh Evan You, dirancang untuk menjadi progresif dan mudah diadopsi. Kelebihannya meliputi:</p>
+                
+                <ul>
+                    <li><strong>Kurva Pembelajaran yang Rendah:</strong> Vue dikenal karena dokumentasinya yang sangat baik dan sintaksnya yang mudah dipahami, menjadikannya pilihan yang baik untuk pemula.</li>
+                    <li><strong>Fleksibilitas:</strong> Vue dapat digunakan untuk membuat komponen kecil dalam aplikasi yang ada atau untuk membangun aplikasi single-page yang kompleks.</li>
+                    <li><strong>Template HTML Berbasis:</strong> Vue menggunakan template HTML dengan sintaks khusus, yang lebih mudah dipahami bagi mereka yang sudah familiar dengan HTML.</li>
+                    <li><strong>Ekosistem Terintegrasi:</strong> Vue menyediakan solusi resmi untuk routing (Vue Router) dan manajemen state (Vuex), yang bekerja sangat baik bersama.</li>
+                </ul>
+
+                <h3>Tantangan dengan Vue</h3>
+                <p>Beberapa tantangan dengan Vue meliputi:</p>
+                
+                <ul>
+                    <li><strong>Komunitas Lebih Kecil:</strong> Meskipun berkembang, komunitas Vue masih lebih kecil dibandingkan dengan React atau Angular, yang mungkin berarti lebih sedikit sumber daya dan alat pihak ketiga.</li>
+                    <li><strong>Kurang Populer di Perusahaan Besar:</strong> Vue kurang diadopsi oleh perusahaan besar dibandingkan dengan React atau Angular, yang dapat mempengaruhi peluang kerja.</li>
+                </ul>
+
+                <h2>Angular: Framework Komprehensif untuk Aplikasi Besar</h2>
+                <h3>Kelebihan Angular</h3>
+                <p>Angular, dikembangkan oleh Google, adalah framework JavaScript yang lengkap yang menyediakan semua yang dibutuhkan untuk membangun aplikasi besar dan kompleks. Kelebihannya meliputi:</p>
+                
+                <ul>
+                    <li><strong>Framework Lengkap:</strong> Angular hadir dengan banyak fitur bawaan, termasuk routing, manajemen form, dan HTTP client.</li>
+                    <li><strong>TypeScript:</strong> Angular menggunakan TypeScript, memberikan jenis statis dan fitur OOP yang dapat meningkatkan kualitas kode dan membuatnya lebih mudah untuk dikelola dalam proyek besar.</li>
+                    <li><strong>Dukungan Perusahaan Besar:</strong> Sebagai produk Google, Angular memiliki dukungan perusahaan yang kuat dan siklus pembaruan yang teratur.</li>
+                    <li><strong>Arsitektur yang Ketat:</strong> Angular menegakkan struktur dan praktik pengembangan tertentu, yang dapat mengarah pada kode yang lebih konsisten dan mudah dikelola dalam tim besar.</li>
+                </ul>
+
+                <h3>Tantangan dengan Angular</h3>
+                <p>Namun, Angular juga hadir dengan beberapa tantangan:</p>
+                
+                <ul>
+                    <li><strong>Kurva Pembelajaran Tinggi:</strong> Dengan banyak konsep untuk dipelajari, Angular dapat mengintimidasi pemula.</li>
+                    <li><strong>Boilerplate:</strong> Angular sering kali memerlukan lebih banyak kode boilerplate dibandingkan dengan React atau Vue.</li>
+                    <li><strong>Ukuran Bundel:</strong> Aplikasi Angular cenderung lebih besar dibandingkan dengan React atau Vue, yang dapat mempengaruhi waktu muat.</li>
+                </ul>
+
+                <h2>Perbandingan Performa</h2>
+                <p>Ketika membahas performa, ketiga framework ini pada dasarnya memiliki performa yang sebanding untuk sebagian besar aplikasi. Namun, ada beberapa perbedaan halus:</p>
+                
+                <ul>
+                    <li><strong>React dan Virtual DOM:</strong> React menggunakan Virtual DOM untuk meminimalkan manipulasi DOM sebenarnya, yang dapat meningkatkan performa, terutama dalam aplikasi dengan banyak pembaruan UI.</li>
+                    <li><strong>Vue dan Reactive System:</strong> Vue menggunakan sistem reaktif yang dapat melacak perubahan dengan sangat terperinci, menghasilkan pembaruan DOM yang sangat efisien.</li>
+                    <li><strong>Angular dan Ahead-of-Time Compilation:</strong> Angular menggunakan kompilasi AOT untuk mengkonversi template HTML dan TypeScript menjadi JavaScript yang sangat efisien, meningkatkan waktu muat dan performa runtime.</li>
+                </ul>
+
+                <p>Untuk sebagian besar aplikasi, faktor yang lebih penting daripada framework itu sendiri adalah bagaimana Anda mengimplementasikan dan mengoptimalkan kode Anda.</p>
+
+                <h2>Framework Mana yang Harus Dipilih?</h2>
+                <p>Pilihan framework terbaik bergantung pada beberapa faktor, termasuk:</p>
+                
+                <h3>Pilih React Jika:</h3>
+                <ul>
+                    <li>Anda menginginkan fleksibilitas untuk memilih library yang Anda sukai untuk berbagai fungsionalitas.</li>
+                    <li>Anda ingin bekerja dengan komunitas yang besar dan ekosistem yang matang.</li>
+                    <li>Anda mungkin ingin mengembangkan aplikasi mobile di masa depan dengan React Native.</li>
+                </ul>
+
+                <h3>Pilih Vue Jika:</h3>
+                <ul>
+                    <li>Anda adalah pemula dalam framework JavaScript.</li>
+                    <li>Anda menginginkan keseimbangan antara fleksibilitas dan struktur.</li>
+                    <li>Anda menghargai simplisitas dan sintaks yang intuitif.</li>
+                </ul>
+
+                <h3>Pilih Angular Jika:</h3>
+                <ul>
+                    <li>Anda membangun aplikasi perusahaan besar dan kompleks.</li>
+                    <li>Anda bekerja dalam tim besar yang membutuhkan standar dan struktur yang konsisten.</li>
+                    <li>Anda menyukai TypeScript dan fitur-fitur OOP.</li>
+                </ul>
+
+                <h2>Kesimpulan</h2>
+                <p>React, Vue, dan Angular adalah tiga framework JavaScript terkemuka yang masing-masing memiliki kelebihan dan tantangan unik. Tidak ada "framework terbaik" secara universal – pilihan terbaik bergantung pada kebutuhan spesifik proyek Anda, keterampilan tim Anda, dan preferensi pribadi.</p>
+
+                <p>Sebagai pengembang, menguasai setidaknya satu dari framework ini akan sangat meningkatkan kemampuan Anda untuk membangun aplikasi web modern yang canggih. Dan sementara mempelajari dasar-dasar dari ketiganya dapat memberikan perspektif yang berharga, lebih baik untuk menjadi ahli dalam satu framework daripada memiliki pengetahuan permukaan tentang banyak framework.</p>
+
+                <p>Pendekatan terbaik adalah memulai dengan satu framework yang menurut Anda paling cocok dengan gaya pengembangan Anda, menguasainya, dan kemudian menjelajahi yang lain jika diperlukan untuk proyek atau peran tertentu.</p>
+            </article>
+
+            <div class="blog-share">
+                <h3>Bagikan Artikel</h3>
+                <div class="social-share">
+                    <a href="#" aria-label="Share on Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Share on Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Share on LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="blog-navigation">
+                <div class="blog-nav-prev">
+                    <a href="ai-web-development.html">
+                        <i class="fas fa-angle-left"></i>
+                        <span>Artikel Sebelumnya</span>
+                    </a>
+                </div>
+                <div class="blog-nav-next">
+                    <a href="mobile-app-trends.html">
+                        <span>Artikel Berikutnya</span>
+                        <i class="fas fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Kresando Portfolio</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html> 
